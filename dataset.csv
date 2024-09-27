@@ -1,0 +1,73 @@
+state,month,total_cases,total_deaths,total_recoveries
+Kerala,January,10000,500,8000
+Karnataka,January,12000,600,9000
+Andhra Pradesh,January,15000,700,11000
+Tamil Nadu,January,13000,550,8500
+Odisha,January,9000,300,7000
+Kerala,February,11000,550,8500
+Karnataka,February,12500,650,9500
+Andhra Pradesh,February,16000,750,12000
+Tamil Nadu,February,13500,580,8700
+Odisha,February,9500,320,7200
+Kerala,March,12000,600,8800
+Karnataka,March,13000,700,9400
+Andhra Pradesh,March,17000,800,12500
+Tamil Nadu,March,14000,600,9000
+Odisha,March,10000,350,7400
+Kerala,April,13000,700,9000
+Karnataka,April,14000,750,9600
+Andhra Pradesh,April,18000,900,13000
+Tamil Nadu,April,14500,620,9100
+Odisha,April,11000,400,7600
+Kerala,May,14000,750,9200
+Karnataka,May,15000,800,9800
+Andhra Pradesh,May,19000,950,13500
+Tamil Nadu,May,15000,650,9400
+Odisha,May,12000,450,7800
+Kerala,June,15000,800,9400
+Karnataka,June,16000,850,10000
+Andhra Pradesh,June,20000,1000,14000
+Tamil Nadu,June,15500,700,9600
+Odisha,June,13000,500,8000
+Kerala,July,16000,850,9500
+Karnataka,July,17000,900,10200
+Andhra Pradesh,July,21000,1100,14500
+Tamil Nadu,July,16000,800,9800
+Odisha,July,14000,600,8200
+Kerala,August,17000,900,9600
+Karnataka,August,18000,950,10400
+Andhra Pradesh,August,22000,1200,15000
+Tamil Nadu,August,16500,750,10000
+Odisha,August,15000,550,8400
+Kerala,September,18000,950,9700
+Karnataka,September,19000,1000,10600
+Andhra Pradesh,September,23000,1300,15500
+Tamil Nadu,September,17000,700,10300
+Odisha,September,16000,600,8600
+Kerala,October,19000,1000,9800
+Karnataka,October,20000,1050,10800
+Andhra Pradesh,October,24000,1400,16000
+Tamil Nadu,October,17500,750,10400
+Odisha,October,17000,650,8800
+Kerala,November,20000,1100,9900
+Karnataka,November,21000,1100,11000
+Andhra Pradesh,November,25000,1500,16500
+Tamil Nadu,November,18000,800,10600
+Odisha,November,18000,700,9000
+Kerala,December,21000,1200,10000
+Karnataka,December,22000,1200,11200
+Andhra Pradesh,December,26000,1600,17000
+Tamil Nadu,December,18500,850,10700
+Odisha,December,19000,800,9200
+Nepal,	January	   , 18000	,750	,8900
+Nepal,	February	,19500	,820	,9100
+Nepal,	March	   , 20000	,780	, 9300
+Nepal,	April	   , 18500	,800	, 9000
+Nepal,	May	       , 19000	,810	,9200
+Nepal,	June	   , 17500	,770	,8800
+Nepal,	July	   , 20000	,830	,9400
+Nepal,	August	   , 18500	,790	,9100
+Nepal,	September	,19500	,800	,9300
+Nepal,	October	   , 18000	,760	,8900
+Nepal,	November	,19000	,820	,9200
+Nepal,	December	,20000	,800	,9400

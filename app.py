@@ -15,6 +15,9 @@ class CovidDataAnalyzer:
         self.state_button = tk.Button(root, text="Show Bar Graphs", command=self.show_statistics)
         self.state_button.pack(pady=20)
 
+        self.pie_button = tk.Button(root, text="Show Pie Chart", command=self.show_pie_chart)
+        self.pie_button.pack(pady=20)
+
         self.data = None
 
     def upload_csv(self):
@@ -37,7 +40,7 @@ class CovidDataAnalyzer:
             messagebox.showwarning("Warning", "No data uploaded!")
 
     def plot_data(self):
-        states = ['Kerala', 'Karnataka', 'Andhra Pradesh', 'Tamil Nadu', 'Odisha','Nepal']
+        states = ['Kerala', 'Karnataka', 'Andhra Pradesh', 'Tamil Nadu', 'Odisha', 'Nepal']
         months = self.data['month'].unique()
 
         for state in states:
@@ -67,6 +70,20 @@ class CovidDataAnalyzer:
                 plt.grid(axis='y')
                 plt.tight_layout()
                 plt.show()
+
+    def show_pie_chart(self):
+        if self.data is not None:
+            states = self.data['state'].unique()
+            total_cases = self.data.groupby('state')['total_cases'].sum()
+
+            # Create a pie chart
+            fig, ax = plt.subplots()
+            ax.pie(total_cases, labels=states, autopct='%1.1f%%', startangle=90)
+            ax.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
+            plt.title("Total COVID-19 Cases by State")
+            plt.show()
+        else:
+            messagebox.showwarning("Warning", "No data uploaded!")
 
 if __name__ == "__main__":
     root = tk.Tk()
